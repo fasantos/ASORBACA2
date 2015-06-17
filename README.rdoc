@@ -1,28 +1,25 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The goal of this app is to joing RoR with Angularjs, a terrific back-end to a front-end with user experience in mind, it is based on the book [AngularJS with Ruby on Rails](http://angular-rails.com).
 
-Things you may want to cover:
+The technologies used:
 
-* Ruby version
+* CoffeeScript
 
-* System dependencies
+* RSpec (for back-end tests)
 
-* Configuration
+* Jasmine (for front-end tests)
 
-* Database creation
+* Capybara & Selenium (for browser-based acceptance tests)
 
-* Database initialization
+* Bower (to manage front-end dependencies)
 
-* How to run the test suite
+* Twitter Bootstrap
 
-* Services (job queues, cache servers, search engines, etc.)
+* Git
 
-* Deployment instructions
+* Heroku (for deployment)
 
-* ...
+* PostgesSQL
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The app is developed using TDD and BDD to implement a "CRUD" app. Deployment can be seen in [Myrecipes](https://my-rails-angular-recipes.herokuapp.com)
